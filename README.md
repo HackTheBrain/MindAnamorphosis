@@ -1,4 +1,4 @@
-# Mind-Anamorphosis
+# Mind Anamorphosis
 
 ## Who
 Michael McMahon
