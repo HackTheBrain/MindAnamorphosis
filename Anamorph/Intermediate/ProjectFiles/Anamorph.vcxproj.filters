@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Anamorph.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{930251ED-D638-4248-9292-D50BB35E5909}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Anamorph.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AnamorphEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{86FC2A2A-AFE9-44A1-92CE-145A93BA79C2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Anamorph">
+      <UniqueIdentifier>{DE6B9016-EEB4-4135-8820-B3225849582F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Anamorph\Anamorph.Build.cs">
+      <Filter>Source\Anamorph</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Anamorph\Anamorph.cpp">
+      <Filter>Source\Anamorph</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anamorph\Anamorph.h">
+      <Filter>Source\Anamorph</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Anamorph\AnamorphCharacter.cpp">
+      <Filter>Source\Anamorph</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anamorph\AnamorphCharacter.h">
+      <Filter>Source\Anamorph</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Anamorph\AnamorphGameMode.cpp">
+      <Filter>Source\Anamorph</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anamorph\AnamorphGameMode.h">
+      <Filter>Source\Anamorph</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Anamorph\AnamorphHUD.cpp">
+      <Filter>Source\Anamorph</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anamorph\AnamorphHUD.h">
+      <Filter>Source\Anamorph</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Anamorph\AnamorphProjectile.cpp">
+      <Filter>Source\Anamorph</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anamorph\AnamorphProjectile.h">
+      <Filter>Source\Anamorph</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\BciController\Source\BciController\BciController.Build.cs">
+      <Filter>Plugins\BciController\Source\BciController</Filter>
+    </None>
+    <None Include="..\..\Plugins\BciController\BciController.uplugin">
+      <Filter>Plugins\BciController</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{58965bf9-452f-4d66-bad7-b04bd96c6b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BciController">
+      <UniqueIdentifier>{a05f0a9a-f516-41c8-b403-571e77f9551f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BciController\Source">
+      <UniqueIdentifier>{ec781cc0-2fbd-4666-9635-c488498627aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BciController\Source\BciController">
+      <UniqueIdentifier>{33d2434f-3a9b-4991-b233-2bd68a78f123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BciController\Source\BciController\Classes">
+      <UniqueIdentifier>{08a4206d-414e-45be-8dee-1ce9afea97ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BciController\Source\BciController\Private">
+      <UniqueIdentifier>{eafb23a6-39f8-43ba-bbfd-e11eeb1bb69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BciController\Source\BciController\Public">
+      <UniqueIdentifier>{f6bd442e-469e-49ff-a775-b99bf0f61f1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Plugins\BciController\Source\BciController\Classes\BciActor.cpp">
+      <Filter>Plugins\BciController\Source\BciController\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BciController\Source\BciController\Private\BciControllerInputDevice.cpp">
+      <Filter>Plugins\BciController\Source\BciController\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BciController\Source\BciController\Private\BciControllerPlugin.cpp">
+      <Filter>Plugins\BciController\Source\BciController\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Plugins\BciController\Source\BciController\Classes\BciActor.h">
+      <Filter>Plugins\BciController\Source\BciController\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BciController\Source\BciController\Public\IBciControllerPlugin.h">
+      <Filter>Plugins\BciController\Source\BciController\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BciController\Source\BciController\Private\BciControllerInputDevice.h">
+      <Filter>Plugins\BciController\Source\BciController\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BciController\Source\BciController\Private\BciControllerInputState.h">
+      <Filter>Plugins\BciController\Source\BciController\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BciController\Source\BciController\Private\BciControllerPlugin.h">
+      <Filter>Plugins\BciController\Source\BciController\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BciController\Source\BciController\Private\BciControllerPrivatePCH.h">
+      <Filter>Plugins\BciController\Source\BciController\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
