@@ -14,6 +14,6 @@ The inspiration for this work lies with the surrealists movement's idea of “au
 Anamorphosis is a distorted projection or perspective requiring the viewer to use special devices or occupy a specific vantage point (or both) to reconstitute the image.  Anamorphsis plays havoc with elements and principles; instead of reducing forms to their visible limits, it projects them outside themselves and distorts them so that when viewed for a cerain point or through a device they return to normal creating a poetry of abstraction, optical illusion and a philosophy of false reality.
 
 ## How
-The proposal will not need any equipment beyond what is being provided - specifically an EEG cap, electrodes, Open BCI, Openvibe and a VR DK Oculus Rift.
+We will be using an EEG cap, electrodes, Open BCI, Openvibe, an VR DK Oculus Rift and the Unreal Game Engine.
 
 ## Ethical considerations
