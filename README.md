@@ -11,6 +11,8 @@ I’m a Senior Program Manager in Ericsson Mediaroom with 20 years’ experience
 ## Why
 The inspiration for this work lies with the surrealists movement's idea of “automatic drawing” to adequately represent the unconscious mind and allow participants to step into their own painting where they might be more inclined to explore the potential personal meaning of what they find there as it responds to their thoughts – a mind Anamorphosis.
 
+Anamorphosis is a distorted projection or perspective requiring the viewer to use special devices or occupy a specific vantage point (or both) to reconstitute the image.  Anamorphsis plays havoc with elements and principles; instead of reducing forms to their visible limits, it projects them outside themselves and distorts them so that when viewed for a cerain point or through a device they return to normal creating a poetry of abstraction, optical illusion and a philosophy of false reality.
+
 ## How
 The proposal will not need any equipment beyond what is being provided - specifically an EEG cap, electrodes, Open BCI, Openvibe and a VR DK Oculus Rift.
 
