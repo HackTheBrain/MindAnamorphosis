@@ -20,3 +20,6 @@ Anamorphosis is a distorted projection or perspective requiring the viewer to us
 We will be using an EEG cap, electrodes, Open BCI, Openvibe, an VR DK Oculus Rift and the Unreal Game Engine.
 
 ## Ethical considerations
+No PII data will be collected
+Permission will be requested before any EEG data is recorded
+All participant data will be destroyed after the hackathon 
