@@ -14,7 +14,7 @@
 #include "IInputDeviceModule.h"
 #include "IInputDevice.h"
  
-DEFINE_LOG_CATEGORY_STATIC(LogBciControllerDevice, Warning, All);
+DEFINE_LOG_CATEGORY_STATIC(LogBciControllerDevice, Log, All);
 
 #define LOCTEXT_NAMESPACE "BciController"
 #define NO_EVENT_IDX -1
@@ -30,8 +30,6 @@ FBciControllerInputDevice::FBciControllerInputDevice(const TSharedRef< FGenericA
     MessageHandler(InMessageHandler),
     VRPNButton(nullptr),
     VRPNAnalog(nullptr),
-    maxAnalogue(0.0f),
-    minAnalogue(0.0f),
     lastUpdate(0)
 {
 	UE_LOG(LogBciControllerDevice, Log, TEXT("Starting BciControllerInputDevice"));
@@ -229,16 +227,38 @@ void FBciControllerInputDevice::vrpn_button_callback(vrpn_BUTTONCB button)
 
 void FBciControllerInputDevice::vrpn_analog_callback(vrpn_ANALOGCB analog)
 {
+    if (analog.num_channel > 1)
+    {   
+        float moveLeft = GetNormalizedAnalogueValue(analog.channel[0], 0);
+        float moveRight = GetNormalizedAnalogueValue(analog.channel[1], 1);
+
+        float result = moveRight - moveLeft;
+
+        if (result > 0.2)
+        {
+            UE_LOG(LogBciControllerDevice, Log, TEXT("Received Analog Callback; Diff = %d, Moving Right"), result);
+            MessageHandler->OnControllerAnalog(BciInputButtonMapping[0], 0, result);
+        }
+        else if (result < -0.2)
+        {
+            UE_LOG(LogBciControllerDevice, Log, TEXT("Received Analog Callback; Diff = %d, Moving Left"), result);
+            MessageHandler->OnControllerAnalog(BciInputButtonMapping[0], 0, result);
+        }
+
+    }
+/*
+
     for (int i = 0; i < analog.num_channel; i++)
     {
         UE_LOG(LogBciControllerDevice, Log, TEXT("Received Analog Callback; Channel = %d, Value = %d"), i, analog.channel[i]);
-
+        
+        
         if(i == 0)
         {
             float xMove = GetNormalizedAnalogueValue(analog.channel[i]);
             MessageHandler->OnControllerAnalog(BciInputButtonMapping[0], 0, xMove);
         }
-    }
+    }*/
 
     lastUpdate = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
 }
@@ -271,26 +291,26 @@ void FBciControllerInputDevice::CleanupVPRN()
     VRPNAnalog = nullptr;
 }
 
-float FBciControllerInputDevice::GetNormalizedAnalogueValue(vrpn_float64 value)
+float FBciControllerInputDevice::GetNormalizedAnalogueValue(vrpn_float64 value, int index)
 {
     float normalizedValue = 0.0f;
 
-    if (value > maxAnalogue)
+    if (value > maxAnalogue[index])
     {
-        maxAnalogue = value;
+        maxAnalogue[index] = value;
     }
-    else if (value < minAnalogue)
+    else if (value < minAnalogue[index])
     {
-        minAnalogue = value;
+        minAnalogue[index] = value;
     }
     
-    if (maxAnalogue == minAnalogue)
+    if (maxAnalogue[index] == minAnalogue[index])
     {
         normalizedValue = 0.0f;
     }
     else
     {
-        normalizedValue = static_cast<float>( ( ( (value - minAnalogue) * 2 ) / (maxAnalogue - minAnalogue) ) - 1.0f );
+        normalizedValue = static_cast<float>( ( ( (value - minAnalogue[index]) * 2 ) / (maxAnalogue[index] - minAnalogue[index]) ) - 1.0f );
     }
 
     return normalizedValue;

@@ -61,7 +61,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x001cb46c)</Value>
+					<Value>(0x00000000, 0x000f4519)</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
@@ -173,7 +173,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x00176579)</Value>
+					<Value>(0x00000000, 0x001248d8)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -259,7 +259,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x0348c2e7)</Value>
+					<Value>(0x00000000, 0x02e019b6)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -335,7 +335,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x00168b5d)</Value>
+					<Value>(0x00000000, 0x0008fa7d)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -433,7 +433,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x00e863f7)</Value>
+					<Value>(0x00000000, 0x00c0378c)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -530,7 +530,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x001c3ef7)</Value>
+					<Value>(0x00000000, 0x0015d2d2)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -569,7 +569,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/workspace/BCI/motor-imagery-CSP-v2/motor-imagery-CSP/signals/motor-imagery-csp-4-online-[2017.05.20-17.35.36].ov</Value>
+					<Value>C:/Users/tobys/GitRepos/MindAnamorphosis/BCI/signals/motor-imagery-csp-1-acquisition-[2017.06.10-17.29.24].ov</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -604,7 +604,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x0097d8cb)</Value>
+					<Value>(0x00000000, 0x007e38fd)</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
@@ -657,7 +657,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x001b4354)</Value>
+					<Value>(0x00000000, 0x001a692d)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -694,7 +694,7 @@
 					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
 					<Name>Spatial Filter Coefficients</Name>
 					<DefaultValue>1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1</DefaultValue>
-					<Value>3.322844e-001 4.869910e-001 5.582521e-001 3.201014e-001 4.881768e-001 -4.058154e-001 8.466280e-002 -5.199942e-001 2.710289e-001 6.959134e-001 7.324360e-001 -1.003907e-001 -6.014690e-001 -2.168642e-001 2.113391e-001 -3.902214e-002 8.366203e-001 -4.950278e-001 -1.782139e-001 -1.474142e-001 -2.865391e-001 1.213008e-002 5.731066e-001 -6.224808e-001 4.492379e-001 7.324360e-001 -1.003907e-001 -6.014690e-001 -2.168642e-001 2.113391e-001 </Value>
+					<Value>-9.999993e-001 3.062779e-006 2.495752e-007 -1.997282e-005 1.774727e-006 -2.406488e-006 1.893020e-005 -6.492891e-007 -2.059566e-004 -1.184265e-003 8.181262e-005 9.999993e-001 -5.377725e-007 9.621650e-007 1.470073e-006 -4.505337e-009 -1.791385e-006 3.347340e-007 4.089588e-008 -2.348729e-004 1.116657e-003 9.714063e-005 9.999999e-001 -1.919391e-007 3.339350e-007 -2.502571e-007 6.265851e-007 -4.952484e-007 -1.077699e-007 1.308288e-008 -3.943762e-004 -9.187896e-005 -3.782482e-005 9.999991e-001 -4.773851e-007 2.974410e-009 -6.213376e-008 -5.664370e-008 3.347837e-006 1.584047e-007 -3.581748e-006 1.166614e-003 1.022561e-004 7.044835e-004 9.999998e-001 -3.948351e-007 1.694395e-007 4.058256e-007 -7.673440e-008 -1.399554e-007 -3.321386e-008 3.297390e-008 1.732874e-004 -4.992232e-004 -2.954217e-004 -1.000000e+000 3.729787e-008 -2.607827e-010 -6.331824e-008 8.946842e-008 -9.041571e-008 -3.283342e-009 1.185072e-008 1.535316e-004 -2.180605e-005 -4.911812e-005 </Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -708,7 +708,7 @@
 					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
 					<Name>Number of Input Channels</Name>
 					<DefaultValue>4</DefaultValue>
-					<Value>5</Value>
+					<Value>11</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -754,7 +754,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x0016f000)</Value>
+					<Value>(0x00000000, 0x000b7803)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -826,7 +826,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x00150981)</Value>
+					<Value>(0x00000000, 0x000b673e)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -905,7 +905,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x0025aee9)</Value>
+					<Value>(0x00000000, 0x0038b042)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xfba64161, 0x65304e21)</Identifier>
@@ -952,7 +952,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x001b0032)</Value>
+					<Value>(0x00000000, 0x000e5a36)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -1009,7 +1009,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x00173324)</Value>
+					<Value>(0x00000000, 0x001040c0)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
@@ -1084,7 +1084,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x0017fc78)</Value>
+					<Value>(0x00000000, 0x00093d95)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
@@ -1179,7 +1179,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x001908ee)</Value>
+					<Value>(0x00000000, 0x00373f31)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -1234,7 +1234,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x0017ca26)</Value>
+					<Value>(0x00000000, 0x000a17b1)</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
@@ -1319,7 +1319,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x001882ab)</Value>
+					<Value>(0x00000000, 0x0014940b)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -1395,7 +1395,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x001b64da)</Value>
+					<Value>(0x00000000, 0x000d4dc5)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
