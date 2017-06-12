@@ -19,7 +19,7 @@ namespace UnrealBuildTool.Rules
             // ... add other private include paths required here ...
             PrivateIncludePaths.AddRange(new string[] {
             "BciController/Private",
-            "C:\\workspace\\BCI\\vrpn"
+            "C:\\Users\\tobys\\Documents\\BCI\\vrpn"
         });
 
             // ... add other public dependencies that you statically link with here ...
@@ -36,7 +36,7 @@ namespace UnrealBuildTool.Rules
             PrivateDependencyModuleNames.AddRange(new string[] {
         });
 
-            PublicAdditionalLibraries.Add(Path.Combine("C:\\workspace\\BCI\\vrpn\\PC_64\\Release", "vrpn.lib"));
+            PublicAdditionalLibraries.Add(Path.Combine("C:\\Users\\tobys\\Documents\\BCI\\vrpn\\PC_64\\Release", "vrpn.lib"));
 
             // ... add any modules that your module loads dynamically here ...
             DynamicallyLoadedModuleNames.AddRange(new string[] {

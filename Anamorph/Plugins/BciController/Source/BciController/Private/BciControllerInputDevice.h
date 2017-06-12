@@ -66,11 +66,11 @@ private:
     vrpn_Button_Remote* VRPNButton;
     vrpn_Analog_Remote* VRPNAnalog;
 
-    float GetNormalizedAnalogueValue(vrpn_float64 value);
+    float GetNormalizedAnalogueValue(vrpn_float64 value, int index);
     void CheckForDormantVRPN();
 
-    vrpn_float64 maxAnalogue;
-    vrpn_float64 minAnalogue;
+    vrpn_float64 maxAnalogue[2] = {0.0, 0.0};
+    vrpn_float64 minAnalogue[2] = {0.0, 0.0};
 
     time_t lastUpdate;
 

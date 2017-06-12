@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{1083CF5B-FA68-41E6-9DC8-C036B54735D1}"
 EndProject
@@ -75,7 +75,8 @@ Global
 		{691591BC-80F7-4D92-9208-1E74246DE8D3}.Shipping|Win32.Build.0 = BuiltWithUnrealBuildTool|Win32
 		{691591BC-80F7-4D92-9208-1E74246DE8D3}.Shipping|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 		{691591BC-80F7-4D92-9208-1E74246DE8D3}.Shipping|Win64.Build.0 = BuiltWithUnrealBuildTool|Win32
-		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.DebugGame Editor|HTML5.ActiveCfg = HTML5_DebugGame_Editor|Win32
+		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.DebugGame Editor|HTML5.ActiveCfg = HTML5_DebugGame_Editor|x64
+		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.DebugGame Editor|HTML5.Build.0 = HTML5_DebugGame_Editor|x64
 		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.DebugGame Editor|IOS.ActiveCfg = IOS_DebugGame_Editor|Win32
 		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.DebugGame Editor|Win32.ActiveCfg = DebugGame_Editor|Win32
 		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.DebugGame Editor|Win64.ActiveCfg = DebugGame_Editor|x64
@@ -88,7 +89,8 @@ Global
 		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.DebugGame|Win32.Build.0 = DebugGame_Game|Win32
 		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.DebugGame|Win64.ActiveCfg = DebugGame_Game|x64
 		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.DebugGame|Win64.Build.0 = DebugGame_Game|x64
-		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.Development Editor|HTML5.ActiveCfg = HTML5_Development_Editor|Win32
+		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.Development Editor|HTML5.ActiveCfg = HTML5_Development_Editor|x64
+		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.Development Editor|HTML5.Build.0 = HTML5_Development_Editor|x64
 		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.Development Editor|IOS.ActiveCfg = IOS_Development_Editor|Win32
 		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.Development Editor|Win32.ActiveCfg = Development_Editor|Win32
 		{95036BD2-0CCB-4AFE-BA39-C7F5AAD02F96}.Development Editor|Win64.ActiveCfg = Development_Editor|x64

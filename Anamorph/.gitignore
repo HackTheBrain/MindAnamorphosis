@@ -1,4 +1,11 @@
 *.obj
 *.pdb
 *.log
+*.dll
+*.exp
+*.lib
+*.response
+*.bin
 .vs/*
+Anamorph/Binaries/Win64/*
+Anamorph/Intermediate/Build/Win64/*

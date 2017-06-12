@@ -9,7 +9,7 @@
 #include "MotionControllerComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 
-DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Log, All);
+DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 //////////////////////////////////////////////////////////////////////////
 // AAnamorphCharacter
@@ -173,12 +173,12 @@ void AAnamorphCharacter::MoveRight(float Value)
             float yawInput = requiredYaw - currentRot.Yaw;
             float normalisedYawInput = yawInput;
 
-            UE_LOG(LogFPChar, Error, TEXT("Pos=%s, CurLookAt=%s, LookAtZero=%s, Yaw=%f"), locString, curString, rotString, yawInput);
+            UE_LOG(LogFPChar, Log, TEXT("Pos=%s, CurLookAt=%s, LookAtZero=%s, Yaw=%f"), locString, curString, rotString, yawInput);
 
             if(yawInput > 180.0) normalisedYawInput = yawInput - 360.0;
             else if(yawInput < -180.0) normalisedYawInput = 360.0 + yawInput;
 
-            UE_LOG(LogFPChar, Error, TEXT("Req=%f, ReqNormd=%f, Current=%f, YawInput=%f, YawNormd=%f"), PlayerRot.Yaw, requiredYaw, currentRot.Yaw, yawInput, normalisedYawInput);
+            UE_LOG(LogFPChar, Log, TEXT("Req=%f, ReqNormd=%f, Current=%f, YawInput=%f, YawNormd=%f"), PlayerRot.Yaw, requiredYaw, currentRot.Yaw, yawInput, normalisedYawInput);
 
             //this->AddControllerPitchInput(currentRot.Pitch - PlayerRot.Pitch);
             this->AddControllerYawInput(normalisedYawInput / 100);
