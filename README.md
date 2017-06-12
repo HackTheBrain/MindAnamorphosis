@@ -1,3 +1,11 @@
+# External Dependencies for using this project
+In order to build and use this project you will need the following:
+* Unreal Engine 4: https://www.unrealengine.com/en-US/blog
+* Visual Studio 17 - I think this should work with the free community edition
+* CMake: https://cmake.org/ - this is needed to build a 64bit version of VRPN
+* VRPN: https://github.com/vrpn/vrpn/wiki - this is used to connect the BCI controller within the Unreal Project to the OpenVIBE scenario. As far as I could see only 32 bit versions of the VRPN client were available for download; and so you need to download the source code and build a 64bit version of this, as required by Unreal.
+* OpenVIBE: http://openvibe.inria.fr/ - this is what is used to train and run the BCI, and to send the control commands, via VRPN, to Unreal. The set of training scenarios, and the final live scenario (BciControllerInput-v2.xml) and the training scenarios (numbered 1..3) are to be found in the 'BCI' subdirectory.
+
 # Mind Anamorphosis
 Hack The Brain Dublin 2017 Project
 https://dublin.sciencegallery.com/page/mindanamorphosis
